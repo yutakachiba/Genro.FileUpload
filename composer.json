@@ -1,0 +1,28 @@
+{
+    "name": "genro/fileupload",
+    "description":" ",
+    "keywords":[
+    ],
+    "license": "BSD-3-Clause",
+    "autoload":{
+        "psr-4":{
+            "Genro\\FileUpload\\": "src/"
+        }
+    },
+    "autoload-dev":{
+        "psr-4":{
+            "Genro\\FileUpload\\": "tests/",
+            "Genro\\FileUpload\\": "tests/Fake"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "0.1.x-dev"
+        }
+    },
+    "require": {
+        "symfony/filesystem": "2.*"
+    }
+}
